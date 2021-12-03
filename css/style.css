@@ -1,6 +1,8 @@
+/*html include full height of page*/
 html {
   height: 100%;
 }
+/*giving background to body and make it no repeat and center in page ,making the display flex then we can make the container center with margin auto */
 body {
   min-height: 100%;
   background-image: url("../image/background.jpg");
@@ -10,6 +12,8 @@ body {
   display: flex;
   color: white;
 }
+/*main container that contains everything with a flex display and flex-direction of row for 2 div right to left
+border raduis of 1.5rem making the corner of border */
 .flex-container {
   display: flex;
   flex-direction: row;
@@ -18,11 +22,13 @@ body {
   border-radius: 1.5rem;
   padding: 1rem;
 }
+/*flex 1 1 auto :automaticly divide the container in 2 equal size*/
 .flex-item {
   flex: 1 1 auto;
   width: 12.6rem;
   padding: 3rem;
 }
+/*margin for better view for all of the below IDs*/
 #person-name,
 #save,
 #submit,
@@ -30,10 +36,13 @@ body {
 #female {
   margin: 0.7rem;
 }
+/*giving a dashed border to saved name div*/
 .saved {
   padding: 0.5rem;
   border: rgba(255, 255, 255, 0.438) dashed;
 }
+/*making the error div hidden then we can show it when giving .active class to it 
+its fixed to show in corner of page*/
 .error {
   background-color: #ffbaba;
   position: fixed;
