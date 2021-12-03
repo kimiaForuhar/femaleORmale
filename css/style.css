@@ -20,7 +20,7 @@ body {
 }
 .flex-item {
   flex: 1 1 auto;
-  width: 20rem;
+  width: 12.6rem;
   padding: 3rem;
 }
 #person-name,
@@ -33,4 +33,21 @@ body {
 .saved {
   padding: 0.5rem;
   border: rgba(255, 255, 255, 0.438) dashed;
+}
+.error {
+  background-color: #ffbaba;
+  position: fixed;
+  border: 1px solid;
+  border-radius: 10px;
+  margin: 10px 10px;
+  padding: 15px 10px 15px 50px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  color: #d8000c;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+}
+.error.active {
+  visibility: visible;
 }
