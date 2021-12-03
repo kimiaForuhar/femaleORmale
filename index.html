@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
+    <script type="text/javascript" src="./js/script.js" defer></script>
     <title>Mr. or Ms.</title>
   </head>
   <body>
@@ -28,11 +29,12 @@
       </div>
       <div class="flex-item">
         <h1>Prediction</h1>
-        <p>gender:</p>
-        <p>probability:</p>
+        <p>gender:<span id="gender"></span></p>
+        <p>probability:<span id="probability"></span></p>
         <div class="saved">
           <h1>saved answer</h1>
-          <p>no data</p>
+          <p id="saved-name">no data</p>
+          <button id="clear" type="button">clear</button>
         </div>
       </div>
     </div>
