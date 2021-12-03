@@ -1,0 +1,36 @@
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  background-image: url("../image/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  color: white;
+}
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(0, 0, 0, 0.7);
+  margin: auto;
+  border-radius: 1.5rem;
+  padding: 1rem;
+}
+.flex-item {
+  flex: 1 1 auto;
+  width: 20rem;
+  padding: 3rem;
+}
+#person-name,
+#save,
+#submit,
+#male,
+#female {
+  margin: 0.7rem;
+}
+.saved {
+  padding: 0.5rem;
+  border: rgba(255, 255, 255, 0.438) dashed;
+}
